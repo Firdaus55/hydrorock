@@ -63,10 +63,14 @@ const Navbar = () => {
             } sm:flex  flex-1 items-center justify-center sm:items-stretch sm:justify-between`}
           >
             <div className="flex flex-shrink-0 items-center">
-              <img className="h-14" src="src/assets/img/logo.png" alt="" />
+              <img
+                className="h-14"
+                src="../../../src/assets/img/logo.png"
+                alt=""
+              />
               <img
                 className="h-14 ms-4"
-                src="src/assets/img/logo-2.png"
+                src="../../../src/assets/img/logo-2.png"
                 alt=""
               />
             </div>
