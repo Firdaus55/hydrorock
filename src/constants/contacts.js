@@ -1,12 +1,12 @@
 export const contacts = [
   {
-    icon: "src/assets/img/home_icon.svg",
+    icon: "/assets/img/home_icon.svg",
     alt: "home_icon",
     title: "Alamat :",
     content: "22 Woodlands Walk, Singapore 738390",
   },
   {
-    icon: "src/assets/img/mail_icon.svg",
+    icon: "/assets/img/mail_icon.svg",
     alt: "mail_icon",
     title: "Email :",
     content: {
@@ -15,7 +15,7 @@ export const contacts = [
     },
   },
   {
-    icon: "src/assets/img/phone_icon.svg",
+    icon: "/assets/img/phone_icon.svg",
     alt: "phone_icon",
     title: "Kontak :",
     content: {

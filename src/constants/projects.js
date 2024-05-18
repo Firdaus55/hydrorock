@@ -4,9 +4,9 @@ export const projects = [
     title: "Case Schoolyard De Vlinder / De Violier, Schiedam",
     desc: "INCREASING SUSTAINABILITY AND REDUCING FLOODING",
     images: [
-      "src/assets/img/project/1.png",
-      "src/assets/img/project/2.png",
-      "src/assets/img/project/3.png",
+      "/assets/img/project/1.png",
+      "/assets/img/project/2.png",
+      "/assets/img/project/3.png",
     ],
   },
   {
@@ -14,9 +14,9 @@ export const projects = [
     title: "CONNECTING MODULE",
     desc: "",
     images: [
-      "src/assets/img/project/4.png",
-      "src/assets/img/project/5.png",
-      "src/assets/img/project/6.png",
+      "/assets/img/project/4.png",
+      "/assets/img/project/5.png",
+      "/assets/img/project/6.png",
     ],
   },
   {
@@ -24,9 +24,9 @@ export const projects = [
     title: "Hydrorock Green System Optimises Plant Health",
     desc: "No need watering the plants for 30 days more",
     images: [
-      "src/assets/img/project/7.png",
-      "src/assets/img/project/8.png",
-      "src/assets/img/project/9.png",
+      "/assets/img/project/7.png",
+      "/assets/img/project/8.png",
+      "/assets/img/project/9.png",
     ],
   },
 ];
