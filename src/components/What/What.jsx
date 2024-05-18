@@ -23,7 +23,7 @@ const What = () => {
         </div>
       </div>
 
-      <img src="src/assets/img/img.png" alt="img" />
+      <img src="../../../src/assets/img/img.png" alt="img" />
     </section>
   );
 };
