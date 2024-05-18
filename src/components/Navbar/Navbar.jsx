@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { navLinks } from "../../constants/navlinks";
 import { Link, useLocation } from "react-router-dom";
+import myImage from "../../assets/img/logo.png";
+import myImage2 from "../../assets/img/logo-2.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -63,16 +65,8 @@ const Navbar = () => {
             } sm:flex  flex-1 items-center justify-center sm:items-stretch sm:justify-between`}
           >
             <div className="flex flex-shrink-0 items-center">
-              <img
-                className="h-14"
-                src="../../../src/assets/img/logo.png"
-                alt=""
-              />
-              <img
-                className="h-14 ms-4"
-                src="../../../src/assets/img/logo-2.png"
-                alt=""
-              />
+              <img className="h-14" src={myImage} alt="" />
+              <img className="h-14 ms-4" src={myImage2} alt="" />
             </div>
             <div className="hidden sm:ml-6 my-auto  sm:block">
               <div className="flex space-x-4">

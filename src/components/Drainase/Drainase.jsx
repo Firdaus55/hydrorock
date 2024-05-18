@@ -8,7 +8,7 @@ const Drainase = () => {
       <div className="lg:flex justify-center items-center lg:mt-5">
         <div className="lg:flex items-center justify-between gap-20 ">
           <img className="h-80 mx-auto" src={myImage} alt="" />
-          <img className="h-80 mx-auto" ssrc={myImage2} alt="" />
+          <img className="h-80 mx-auto" src={myImage2} alt="" />
           <img className="h-80 mx-auto" src={myImage3} alt="" />
         </div>
       </div>

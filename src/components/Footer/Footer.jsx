@@ -1,4 +1,5 @@
 import { contacts } from "../../constants/contacts";
+import myImage from "../../assets/img/logo.png";
 
 const contact = contacts;
 
@@ -70,11 +71,7 @@ const Footer = () => {
 
         {/* right */}
         <div className="text-white lg:basis-1/3 ">
-          <img
-            src="src/assets/img/logo.png"
-            alt="logo"
-            className="lg:float-right"
-          />
+          <img src={myImage} alt="logo" className="lg:float-right" />
         </div>
       </div>
     </footer>
