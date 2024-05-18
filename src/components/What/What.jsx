@@ -1,4 +1,5 @@
 import myImage from "../../assets/img/what.png";
+import myImage2 from "../../assets/img/img.png";
 
 const What = () => {
   return (
@@ -23,7 +24,7 @@ const What = () => {
         </div>
       </div>
 
-      <img src="../../../src/assets/img/img.png" alt="img" />
+      <img src={myImage2} alt="img" />
     </section>
   );
 };
