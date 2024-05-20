@@ -13,7 +13,7 @@ const Projects = ({ projects }) => {
             <div className="lg:flex  items-center justify-between">
               {project.images.map((image, index) => (
                 <img
-                  className=" mb-10 lg:mb-0 "
+                  className=" mb-10 lg:mb-0 justify-end"
                   key={index}
                   src={image}
                   alt={`${project.title} image ${index + 1}`}

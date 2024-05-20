@@ -19,12 +19,12 @@ const What = () => {
             </p>
           </div>
           <div className="lg:col-span-5  lg:flex lg:items-center justify-end">
-            <img className="mx-auto w-80  lg:mx-0" src={myImage} alt="" />
+            <img className="mx-auto  lg:mx-0" src={myImage} alt="" />
           </div>
         </div>
       </div>
 
-      <img src={myImage2} alt="img" />
+      <img className="w-full" src={myImage2} alt="img" />
     </section>
   );
 };
